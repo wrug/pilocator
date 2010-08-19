@@ -1,0 +1,49 @@
+/* @override http://localhost:4567/stylesheet.css */
+
+body {
+	background: #343434;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: #feffff;
+	text-align: left;
+}
+
+#container {
+	width: 500px;
+	margin: 0 auto;
+}
+
+form {
+	padding-top: 75px;
+	background: url(guide.png) no-repeat;
+}
+
+h1, h2 {
+	text-align: right;
+	text-shadow: #b22711 1px 1px 0;
+	font-size: 60px;
+	letter-spacing: -3px;
+	margin-bottom: 0;
+}
+
+h2 {
+	margin-top: -10px;
+	margin-bottom: 20px;
+	font-size: 15px;
+	letter-spacing: -1px;
+}
+
+input {
+	font-size: 24px;
+	width: 480px;
+	border: 10px solid #8c1c02;
+	text-align: right;
+}
+
+#result {
+	text-align: center;
+	color: black;
+	padding: 6px 10px;
+	margin-top: 20px;
+	background: #56f56d;
+	border: 10px solid #008024;
+}

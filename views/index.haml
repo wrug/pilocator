@@ -1,0 +1,14 @@
+%h1 &#960;locator
+%h2 pre-alpha v0.0.1 codename WRUGHACKFEST#1
+
+%form
+  %input{ :name => "sequence", :type => "text", :value => params[:sequence] }
+
+#result
+  - if @position
+    Found
+    = params[:sequence]
+    at position
+    = @position
+  - else
+    Don't be scared
